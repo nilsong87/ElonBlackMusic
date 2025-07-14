@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon Black Music - Produtos Premium</title>
+    <link rel="icon" href="images/Logo.png" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Elon black Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title">Produtos de Qualidade para Você</h1>
+                    <p class="hero-subtitle">Encontre os melhores produtos com os melhores preços. Entrega rápida para
+                        toda Salvador-BA.</p>
+                    <a href="#produtos" class="btn btn-primary">Ver Produtos</a>
+                    <a href="#contato" class="btn btn-outline-light">Fale Conosco</a>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="images/banner.webp" alt="Hero Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos Section -->
+    <section id="produtos" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Nossos Produtos</h2>
+            <div class="row" id="row">
+                <!-- Produto 1 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <div id="carouselProduto1" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/behringer.webp" alt="Produto 1"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/behringer-fundo.webp" alt="Produto 1"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduto1"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProduto1"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">Behringer V-Amp</h5>
+                            <p class="product-description">A pedaleira Behringer V-Amp é um processador de efeitos
+                                digital versátil, ideal para guitarristas que buscam simulações realistas de
+                                amplificadores e caixas acústicas sem precisar de equipamentos volumosos.</p>
+                            <div class="product-price">R$ 350,00</div>
+                            <button class="btn btn-product" onclick="redirectToWhatsApp('Smartphone Premium')">Comprar
+                                Agora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 2 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <div id="carouselProduto2" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/giannini.webp" alt="Produto 2"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/giannini2.webp" alt="Produto 2"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/giannini3.webp" alt="Produto 2"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/giannini4.webp" alt="Produto 2"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/giannini5.webp" alt="Produto 2"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduto2"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProduto2"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">Violão Folk Giannini GF 1R DBB</h5>
+                            <p class="product-description">O Violão Folk Giannini GF-1R DBB C é uma excelente escolha
+                                para músicos que buscam estilo, conforto e versatilidade sonora. Com acabamento em
+                                degradê verde e corpo no formato folk cutaway, ele combina visual moderno com
+                                tocabilidade aprimorada.</p>
+                            <div class="product-price">R$ 950,00</div>
+                            <button class="btn btn-product" onclick="redirectToWhatsApp('Notebook Ultra Slim')">Comprar
+                                Agora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <div id="carouselProduto3" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/maudio.webp" alt="Produto 3" class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/maudio2.webp" alt="Produto 3"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/maudio3.webp" alt="Produto 3"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/maudio4.webp" alt="Produto 3"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/maudio5.webp" alt="Produto 3"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduto3"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProduto3"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">M-Audio Black Box</h5>
+                            <p class="product-description">Transforme seu computador em um estúdio de gravação
+                                profissional para guitarra com o M-Audio Black Box, uma solução completa para músicos
+                                que buscam qualidade de estúdio em um dispositivo portátil.</p>
+                            <div class="product-price">R$ 800,00</div>
+                            <button class="btn btn-product" onclick="redirectToWhatsApp('Fone Bluetooth')">Comprar
+                                Agora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 4 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <div id="carouselProduto4" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/mca gx60.webp" alt="Produto 4"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/mca gx60 2.webp" alt="Produto 4"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/mca gx60 3.webp" alt="Produto 4"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduto4"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProduto4"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">Amplificador de Guitarra MCA GX60</h5>
+                            <p class="product-description">Monitor de atividades com GPS integrado, resistente à água e
+                                com bateria de 7 dias.</p>
+                            <div class="product-price">R$ 500,00</div>
+                            <button class="btn btn-product" onclick="redirectToWhatsApp('Smartwatch Fitness')">Comprar
+                                Agora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 5 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <div id="carouselProduto5" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/meteoro-frente.webp" alt="Produto 5"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/meteoro-fundo.webp" alt="Produto 5"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduto5"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProduto5"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">Amplificador Meteoro Nitrous 210-GS</h5>
+                            <p class="product-description">Amplificador Meteoro Nitrous 210-GS, com design clássico,
+                                timbres encorpados. Perfeito para diversos estilos musicais, com controles de
+                                volume, drive, ganho, equalização e efeitos.</p>
+                            <div class="product-price">R$ 1.300,00</div>
+                            <button class="btn btn-product"
+                                onclick="redirectToWhatsApp('Caixa de Som Portátil')">Comprar Agora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 6 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <div id="carouselProduto6" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/prs-se.webp" alt="Produto 6" class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/prs-se2.webp" alt="Produto 6"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/prs-se3.webp" alt="Produto 6"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/prs-se4.webp" alt="Produto 6"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/prs-se5.webp" alt="Produto 6"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduto6"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProduto6"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">Guitarra Elétrica - PRS SE Custom 24 C Captadores Seymour Duncan
+                                Slash Signature</h5>
+                            <p class="product-description">Guitarra elétrica PRS SE Custom 24, em ótimo estado, com um
+                                timbre incrível e um visual impecável. A guitarra possui corpo em mogno, braço em
+                                mogno com escala em rosewood, 24 trastes, captadores humbucker Seymour Duncan Slash
+                                Signature. Uma guitarra ideal para quem busca um instrumento versátil e de alta
+                                qualidade.</p>
+                            <div class="product-price">R$ 8.999,00</div>
+                            <button class="btn btn-product" onclick="redirectToWhatsApp('Tablet 10')">Comprar
+                                Agora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 7 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <div id="carouselProduto7" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/warm-frente.webp" alt="Produto 7"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/warm-fundo.webp" alt="Produto 7"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/warm2.webp" alt="Produto 7" class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/warm3.webp" alt="Produto 7" class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/warm4.webp" alt="Produto 7" class="product-img d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduto7"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProduto7"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">Amplificador Warm Music Rock Bass R.B. 108</h5>
+                            <p class="product-description">Amplificador Warm Music Rock Bass R.B. 108, ideal para
+                                baixos. Possui equalização e design compacto para maior praticidade. Perfeito para
+                                ensaios e apresentações.</p>
+                            <div class="product-price">R$ 400,00</div>
+                            <button class="btn btn-product" onclick="redirectToWhatsApp('Câmera DSLR')">Comprar
+                                Agora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 8 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <div id="carouselProduto8" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/mesa.webp" alt="Produto 8" class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/mesa2.webp" alt="Produto 8" class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/mesa3.webp" alt="Produto 8" class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/mesa4.webp" alt="Produto 8" class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/mesa5.webp" alt="Produto 8" class="product-img d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduto8"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProduto8"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">Mesa de Centro</h5>
+                            <p class="product-description">Mesa de centro moderna e elegante, com design clean e
+                                detalhes em coração, ideal para complementar a decoração da sua sala de estar. A mesa
+                                possui tampo de vidro e base branca em MDF, proporcionando um visual sofisticado e
+                                atemporal.<br>
+                                Mesa : 164,5 largura e 60 profundidade<br>
+                                Nicho : 33,5 largura, 30 profundidade e 71,5 altura</p>
+                            <div class="product-price">R$ 600,00</div>
+                            <button class="btn btn-product" onclick="redirectToWhatsApp('Drone 4K')">Comprar
+                                Agora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 9 -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="product-card">
+                        <div class="product-img-container">
+                            <div id="carouselProduto9" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/cristaleira.webp" alt="Produto 9"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/cristaleira2.webp" alt="Produto 9"
+                                            class="product-img d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduto9"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProduto9"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <h5 class="product-title">Par de Cristaleira</h5>
+                            <p class="product-description">Par de cristaleiras de vidro com design moderno e elegante.
+                                Perfeitas para organizar e exibir seus objetos de decoração. O acabamento em vidro
+                                transparente com detalhes em diamante proporciona um toque de sofisticação a qualquer
+                                ambiente.</p>
+                            <div class="product-price">R$ 600,00</div>
+                            <button class="btn btn-product" onclick="redirectToWhatsApp('Console de Games')">Comprar
+                                Agora</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Incluir mais Produtos -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Sobre Nós</h2>
+                    <p>A Elon Black Music nasceu com o objetivo de oferecer os melhores produtos novos e usados com a
+                        melhor qualidade e preço justo. Nossa equipe é composta por especialistas que selecionam
+                        cuidadosamente cada item em nosso catálogo.</p>
+                    <p>Com mais de 10 anos de experiência no mercado, garantimos a satisfação de nossos clientes com
+                        produtos de qualidade e um atendimento excepcional.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-primary me-2"></i> Produtos selecionados</li>
+                        <li><i class="fas fa-check text-primary me-2"></i> Garantia de qualidade</li>
+                        <li><i class="fas fa-check text-primary me-2"></i> Entrega rápida</li>
+                        <li><i class="fas fa-check text-primary me-2"></i> Atendimento personalizado</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="images/Logo.png" alt="Sobre Nós" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Entre em Contato</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body p-5">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="nome" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="nome" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="assunto" class="form-label">Assunto</label>
+                                    <input type="text" class="form-control" id="assunto" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label">Mensagem</label>
+                                    <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal de Zoom da Imagem -->
+        <div id="zoomModal" class="zoom-modal" onclick="closeZoomModal()">
+            <span class="zoom-close">&times;</span>
+            <img class="zoom-modal-content" id="zoomImg">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <h3 class="footer-title">Elon Black Music</h3>
+                <p>Os melhores instrumentos e acessórios novos e seminovos para músicos exigentes.</p>
+                <div class="social-icons">
+                    <!-- Ícones de redes sociais aqui -->
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                <h3 class="footer-title">Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h3 class="footer-title">Produtos</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Guitarras</a></li>
+                    <li><a href="#">Contra-Baixos</a></li>
+                    <li><a href="#">Violões</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="footer-title">Contato</h3>
+                <ul class="footer-links">
+                    <li>
+                        <i class="fas fa-map-marker-alt me-2"></i>
+                        <a href="https://www.google.com/maps/search/?api=1&query=7+de+Abril,+1000+-+Salvador,+BA"
+                            target="_blank" style="color:inherit; text-decoration:underline;">
+                            7 de Abril, 1000 - Salvador, BA
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+5571981326546" style="color:inherit; text-decoration:underline;">
+                            (71) 98132-6546
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope me-2"></i>
+                        <a href="mailto:elonblackmusic@gmail.com" style="color:inherit; text-decoration:underline;">
+                            elonblackmusic@gmail.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright text-center mt-4">
+            &copy; 2025 Elon Black Music. Todos os direitos reservados.
+        </div>
+    </div>
+</footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5571981326546?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20seus%20produtos"
+        class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
